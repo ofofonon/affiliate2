@@ -68,9 +68,13 @@
     font-family: 'Gilroy-Bold ☞';
 }
 body{
-    background-color: rgb(40, 38, 38);
+  background-image: url(samrat-khadka-EuJ6lPPZIMk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
     width: 100%;
     overflow-x: hidden;
+    background-position: top;
+    
 }
 
 .top{
@@ -83,6 +87,13 @@ body{
     border-radius: 20px;
     border: 2.5px silver solid;
     color: white;
+}
+
+.frontsm{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -5;
 }
 
 .navb{
@@ -126,7 +137,7 @@ body{
 }
 
 .shop{
-    background-color: rgb(40, 38, 38);
+    background-color: rgba(40, 38, 38, 0.853);
     height: 210px;
     width: 50%;
     border-radius: 15px;
@@ -139,13 +150,13 @@ body{
 }
 
 .shopsm{
-    background-color:rgb(40, 38, 38);
+    background-color:rgba(40, 38, 38, 0.616);
     height: 160px;
     width: 96%;
     border-radius: 15px;
     position: absolute;
     left: 3%;
-    top: 74%;
+    top: 71%;
     border: 2.5px silver solid;
     text-align: center;
     z-index: 7;
@@ -163,7 +174,7 @@ body{
 }
 
 .itmsm{
-    width: 23%;
+    width: 72px;
     height: 70px;
     background-color: rgba(240, 240, 67, 0.932);
     border-radius: 50%;
@@ -172,7 +183,6 @@ body{
     margin-left: 5px;
     box-shadow: 3px 3px 8px black;
 }
-
 .sn{
     font-size: 150%;
     padding: 10px;
@@ -188,10 +198,28 @@ body{
     z-index: 7;
     font-family: 'Gilroy-Bold ☞';
 }
-.sn:hover{
-    background-color: white;
-    color: black;
+
+.stsm{
+    font-size: 150%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 255, 0.724);
+    color: white;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    z-index: 7;
+    font-family: 'Gilroy-Bold ☞';
 }
+.sn:hover{
+  background-color: rgba(255, 255, 255, 0.856);
+  color: black;
+}
+
+
 
 .logo{
     position: absolute;
@@ -203,7 +231,7 @@ body{
 .imgc{
     height: 450px;
     width: 30%;
-    background-color:  rgb(236, 236, 48);
+    background-color:  rgba(236, 236, 48, 0.985);
     border-radius: 12px;
     position: absolute;
     transform: rotate(-50deg);
@@ -216,7 +244,7 @@ body{
 .imgcd{
     height: 450px;
     width: 90%;
-    background-color:  rgb(236, 236, 48);
+ 
     border-radius: 12px;
     position: absolute;
     transform: rotate(-50deg);
