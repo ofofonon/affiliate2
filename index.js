@@ -1,4 +1,13 @@
 
+window.addEventListener("load", () =>{
+    const loader = document.querySelector(".loader");
+
+    loader.classList.add("loader-hidden");
+
+    loader.addEventListener("transitioned", () =>{
+        document.body.replaceChild("loader");
+    })
+})
 
 function cov1(){
     document.getElementById('cov').style.opacity='78%'
@@ -75,12 +84,12 @@ function drop2(){
 
 function right1(){
     document.getElementById('right').style.right='0%';
-    document.getElementById('right2').style.right='0%';
+    document.getElementById('right2').style.display='block';
 }
 
 function right2(){
     document.getElementById('right').style.right='-50%';
-    document.getElementById('right2').style.right='-80%';
+    document.getElementById('right2').style.display='none';
 }
 
 /*function bounce(){
