@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Gilroy-Bold ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Heavy ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Heavy ☞'), url('Gilroy-Heavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Light ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Medium ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Regular ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        background-color: transparent;
+      }
+      
+     
+
+    
+
+*{
+    font-family: 'Gilroy-Bold ☞';}
+
+
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.left{
+    height:1000px;
+    background-color: rgb(37, 36, 36);
+}
+
+.right{
+    height: 1000px;
+    background-color: rgba(249, 249, 65, 0.932);
+}
+
+.bimg{
+    position: absolute;
+    width: 68%;
+    bottom: 0;
+    right: -4%;
+}
+
+.head2{
+    color:rgba(249, 249, 65, 0.932) ;
+    position: absolute;
+    font-size: 500%;
+    top: 0%;
+    left: 3%;
+   
+}
+
+.head3{
+    color:rgba(249, 249, 65, 0.932) ;
+    position: absolute;
+    font-size: 280%;
+    top: 0%;
+    left: 3%;
+   
+}
+
+
+.contact{
+    
+    height: 500px;
+    
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+.cont{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    border-bottom: 2px dashed white;
+    color: white;
+    font-size: 140%;
+    padding-top: 7%;
+}
+
+.bb{
+    color: rgb(55, 55, 55); 
+    position: absolute; 
+    left: 90%; 
+    font-size: 170%;
+    top: 6%;
+    z-index: 15;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.bb:hover{
+  font-size: 200%;
+}
+
+.right2{
+    width: 20%;
+    background-color: white;
+    height: 573px;
+    position:fixed;
+    top: 2%;
+    right: -50%;
+    z-index: 15;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    transition: 0.4s;
+    box-shadow:  -2px 2px 10px black;
+
+}
+
+.close{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(212, 211, 211);
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    background-color: rgb(233, 232, 232);
+    border: none;
+    margin-top: 16px;
+    margin-left: 20px;
+    border-radius: 4px;
+    height: 40px;
+    width: 85%;
+    padding-left: 15px;
+
+}
+
+.bbt{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(62, 61, 61);
+}

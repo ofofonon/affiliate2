@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Gilroy-Bold ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Heavy ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Heavy ☞'), url('Gilroy-Heavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Light ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Medium ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gilroy-Regular ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
+    }
+
+
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        background-color: transparent;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        
+        border-radius: 5px;
+        background-color: transparent;
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgb(103, 103, 103); 
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(133, 132, 132); 
+        opacity: 90%;
+      }
+
+*{
+    font-family: 'Gilroy-Bold ☞';
+}
+
+
+body{
+    background-color: rgb(40, 38, 38);
+}
+
+.first{
+    height: 300px;
+    width: 35%;
+    
+    position: absolute;
+    top: 11%;
+    left: 50%;
+}
+.first2{
+    height: 300px;
+    text-align: center;
+    
+    position: absolute;
+    top: 14%;
+    left: 0%;
+}
+
+.ftext{
+    color: white;
+    font-size: 150%;
+    line-height: 30px;
+    
+}
+
+.second{
+    height: 300px;
+    width: 35%;
+   
+    position: absolute;
+    top: 60%;
+    left: 11%;
+}
+
+.second2{
+    height: 300px;
+   text-align: center;
+    position: absolute;
+    width: 96%;
+    top: 100%;
+    left: 2%;
+    
+}
+
+.third{
+    height: 300px;
+    width: 35%;
+   
+    position: absolute;
+    top: 123%;
+    left: 50%;
+}
+
+.third2{
+    height: 300px;
+    width: 96%;
+   text-align: center;
+    position: absolute;
+    top: 180%;
+    left: 2%;
+}
+
+.head2{
+    color:rgba(249, 249, 65, 0.932) ;
+    position: absolute;
+    font-size: 500%;
+    top: 15%;
+    left: 12%;
+   
+}
+
+.head3{
+    color:rgba(249, 249, 65, 0.932) ;
+    position: absolute;
+    font-size: 330%;
+    top: 1%;
+    left: 3%;
+   
+}
+
+.fimg{
+    position: absolute;
+    width: 37%;
+    top: 60%;
+    left: 50%;
+    border-radius: 30px;
+}
+
+.fimg2{
+    position: absolute;
+    width: 85%;
+    top: 63%;
+    left: 7.5%;
+   
+    border-radius: 30px;
+}
+
+.img2{
+    width: 35%;
+    position: absolute;
+    top: 118%;
+    left: 10%;
+    border-radius: 30px;
+}
+
+.img2sm{
+    width: 90%;
+    position: absolute;
+    top: 144%;
+    left: 5%;
+    border-radius: 30px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 520px;
+    background-color:  rgba(246, 246, 82, 0.932);
+}
+
+.footer2{
+    width: 100%;
+    height: 1200px;
+    background-color:  rgba(249, 249, 65, 0.932);
+}
+
+.learn{
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-left: 110px;
+}
+
+.fli{
+    list-style-type:none;
+}
+
+.fli2{
+    list-style-type:none;
+}
+
+.fli li{
+    padding-top: 30px;
+  
+}
+.fli2 li{
+    padding-top: 20px;
+}
+
+.footer h4{
+    font-family: 'Gilroy-Medium ☞';
+}
+
+.footer2 h4{
+    font-family: 'Gilroy-Medium ☞';
+}
+
+.bbt{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(62, 61, 61);
+}
+
+.copi{
+    text-align: center;
+    font-family: 'Gilroy-Medium ☞';
+    color:white;
+    font-family: 'Gilroy-Regular ☞';
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}

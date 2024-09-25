@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="new img/favicon_io/favicon-32x32.png">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/4fbba8b045.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body onload="bounce()">
+<div class="row top">
+    <h1 class="logo">Eco<span style="color:  rgba(240, 240, 67, 0.932); font-family: 'Gilroy-Heavy ☞';">system</span></h1>
+    <div class="row navb d-md-none d-sm-none d-none d-lg-block">
+        <ul >
+           <a href="about.html" style="color: white;"><li>About</li></a>
+            <li onmouseover="drop()" onmouseout="drop2()">Products</li>
+            <a href="contact.html" style="color: white;"><li>Contact us</li></a>
+            <li onclick="right1()">FAQs</li>
+        </ul>
+    </div>
+
+    <div class="bb" onclick="right1()" style="height: 20px; width: 20px; border-radius: 50%; background-color: red;"></div>
+    <i class="fa-solid fa-bars bb d-sm-none d-none d-lg-block"   onclick="right1()"></i>
+    <i class="fa-solid fa-bars d-sm-block d-block d-lg-none" style="color: white; position: absolute; left: 80%; font-size: 170%;top: 4%;"></i>
+
+    <div data-aos="slide-right" data-aos-duration="1000" class="toptext d-md-none d-sm-none d-none d-lg-block">
+        <h1>
+            <span class="mid">Your Dream</span> Computer<br>Set Up <span class="mid">Just One</span><br>Click Away 
+        </h1>
+    </div>
+
+    <div style="top: 10%;" class="toptext d-md-none d-sm-block d-block d-lg-none">
+        <h1>
+            <span class="mid">Your Dream</span> Computer<br>Set Up <span style="color:rgb(67, 67, 254);">Just</span><br><span class="mi">One</span><br>Click <span style="color: rgb(67, 67, 254);">Away</span> 
+        </h1>
+    </div>
+    <div class="row d-md-none d-sm-none d-none d-lg-block">
+        <div class="col-lg-3"></div>
+    <div class="col-lg-9">
+        <img  data-aos="slide-left" data-aos-duration="1000"  src="c-d-x-PDX_a_82obo-unsplash-removebg.png" style="width: 80%; position: absolute;top: -10%; right: -5%; z-index: 3;" alt="" >
+    </div>
+    </div>
+    
+</div>
+
+
+<img class="ggg d-md-none d-sm-block d-block d-lg-none"   src="c-d-x-PDX_a_82obo-unsplash-removebg.png" alt="" >
+
+<div class="row shop d-md-none d-sm-none d-none d-lg-block">
+    <h3 style="color: white;margin-left: 0%;">Shop By Categories</h3><br>
+    <hr style="width: 10%; border:white 3px solid ; border-radius: 4px;margin-left: 45%;height: 1px; margin-top: -8px;">
+<div style="margin-top: -10px;">
+    <a class="not" href="headset.html"><div class="cov"  id="cov" onmouseover="cov1()" onmouseout="cov12()"  >
+    <h4 class="mes d-flex align-items-center text-align-center">HEADSETS</h4></div></a>
+    <div class="itm">
+        <img src="lee-campbell-GI6L2pkiZgQ-unsplash.jpg" alt="" class="si">
+        
+    </div>
+    <a class="not" href="mouse.html"><div class="cov" onmouseover="cov2()" onmouseout="cov22()" id="cov2" style="margin-left: 25.5%;" >
+        <h4 class="mes d-flex align-items-center text-align-center" style="margin-left: 19%;">MOUSE</h4>
+    </div></a>
+<div class="itm">
+    <img src="maar-gaming-fG4BTSKPo3w-unsplash.jpg" alt="" class="si">
+    
+</div>
+
+<a class="not" href="keyboard.html"><div class="cov" onmouseover="cov3()" onmouseout="cov32()" id="cov3" style="margin-left: 48%;"  >
+        <h4 class="mes d-flex align-items-center text-align-center" style="margin-left: 2%;">KEYBOARD</h4>
+    </div></a>
+<div class="itm">
+    <img   src="amy-hirschi-szrJ3wjzOMg-unsplash.jpg" alt="" class="si">
+
+     
+</div>
+
+<a class="not" href="laptop.html"><div class="cov"onmouseover="cov4()" onmouseout="cov42()" id="cov4" style="margin-left: 70.7%; margin-top: -25px;">
+    <h4 class="mes d-flex align-items-center text-align-center" style="margin-left: 12.5%;">LAPTOPS</h4>
+</div></a>
+<div class="itm" style="margin-top: -50px;">
+    <img src="onur-binay-auf3GwpVaOM-unsplash.jpg" alt="" class="si">
+    
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<!--for small phones-->
+<div class="row shopsm d-md-block d-sm-block d-block d-lg-none">
+    <h3 style="color: white;margin-left: 0%;">Shop By Categories</h3><br>
+   
+<div style="margin-top: -10px;">
+    <a class="not" href="headset.html">
+    <div class="itmsm">
+        <img src="lee-campbell-GI6L2pkiZgQ-unsplash.jpg" alt="" class="si">
+        
+    </div></a>
+    <a class="not" href="mouse.html">
+<div class="itmsm">
+    <img src="maar-gaming-fG4BTSKPo3w-unsplash.jpg" alt="" class="si">
+    
+</div></a>
+
+<a class="not" href="keyboard.html">
+<div class="itmsm" style="margin-top: -25px;">
+    <img   src="amy-hirschi-szrJ3wjzOMg-unsplash.jpg" alt="" class="si">
+
+     
+</div></a>
+
+<a class="not" href="laptop.html">
+<div class="itmsm" style="margin-top: -25px;">
+    <img src="onur-binay-auf3GwpVaOM-unsplash.jpg" alt="" class="si">
+    
+</div></a>
+</div>
+</div>
+
+<div class="imgc d-md-none d-sm-none d-none d-lg-block"></div>
+<div class="imgcd d-md-block d-sm-block d-block d-lg-none"></div>
+<h3 class="d-md-none d-sm-none d-none d-lg-block" style="color: white;margin-top: 180px; text-align: center;">Amazon <span style="color:  rgba(240, 240, 67, 0.932);">Top</span> Deals</h3>
+
+<h3 class="d-md-block d-sm-block d-block d-lg-none" style="color: white;margin-top: 300px; text-align: center;">Amazon <span style="color:  rgba(240, 240, 67, 0.932);">Top</span> Deals</h3>
+
+
+
+
+
+<hr  style="width: 4%; border: rgba(240, 240, 67, 0.932)3px solid ; border-radius: 4px;margin-left: 49%;height: 1px; margin-top: -3px;">
+
+
+
+
+
+
+
+<div class="row topd d-md-none d-sm-none d-none d-lg-block" id="todp">
+<div class="dd ">
+   <a href="https://amzn.to/4b3F7w8"  style="text-decoration: none;">
+    <div class="dde" >
+        <div class="pic">
+           <img class="picimg" src="new img/71Rpq9W05PL._AC_SL1500_.jpg" alt="">
+        </div>
+        <div style="display: inline-block;">
+            <h6 style=" margin-top: 10px; color: white;margin-left: 10px;">
+                BINNUNE GAMING HEADSET<br>
+            WITH MIC FOR XBOX PS4<br>PS5 PC SWITCH WIRED<br>
+            <span style="color:  rgba(252, 252, 42, 0.932); font-size: 85%; margin-top: 10px; text-align: center;">$38-$35</span></h6>
+            
+        </div>
+    </div>
+   </a>
+   <a href="https://amzn.to/4a9BvY7" style="text-decoration: none;">
+    <div class="dde">
+        <div class="pic">
+            <img class="picimg" src="61ZCdzmymsL._AC_SX679_.jpg" alt="">
+         </div>
+         <div style="display: inline-block;">
+             <h6 style=" margin-top: 10px; color: white;margin-left: 10px;">
+                 LENOVO IDEAPAD 1 STUDENT<br>
+            LAPTOP, ITEL DUAL PROCESS<br>OR, 20GB RAM WINDOWS 11<br>
+             <span style="color:  rgba(252, 252, 42, 0.932); font-size: 85%; margin-top: 10px; text-align: center;">$400-$450</span></h6>
+             
+         </div>
+    </div>
+   </a>
+    <a href="https://amzn.to/44yKiC3" style="text-decoration: none;">
+        <div class="dde">
+            <div class="pic">
+                <img class="picimg" src="61X-HryyD+L._AC_SX679_.jpg" alt="">
+             </div>
+             <div style="display: inline-block;">
+                 <h6 style=" margin-top: 10px; color: white;margin-left: 10px;">
+                     KOORUI GAMING KEYBOARD<br> 60% WIRED ALTRA COMPACT<br>61 KEYS 26 RGB BACKLIGHT<br>
+                 <span style="color:  rgba(252, 252, 42, 0.932); font-size: 85%; margin-top: 10px; text-align: center;">$400-$450</span></h6>
+                 
+             </div>
+        </div>
+    </a>
+   <a href="" style="text-decoration: none;">
+    <div class="dde"></div>
+   </a>
+    <a href="" style="text-decoration: none;">
+        <div class="dde"></div>
+    </a>
+   
+</div>
+</div>
+
+
+
+
+<div class="row topd2 d-md-block d-sm-block d-block d-lg-none" id="todp2">
+<div class="dd ">
+   <a href="https://amzn.to/4b3F7w8"  style="text-decoration: none;">
+    <div class="dde" >
+        <div class="pic">
+           <img class="picimg" src="new img/71Rpq9W05PL._AC_SL1500_.jpg" alt="">
+        </div>
+        <div style="display: inline-block;">
+            <h6 style=" margin-top: 10px; color: white;margin-left: 10px;">
+                BINNUNE GAMING HEADSET<br>
+            WITH MIC FOR XBOX PS4<br>PS5 PC SWITCH WIRED<br>
+            <span style="color:  rgba(252, 252, 42, 0.932); font-size: 85%; margin-top: 10px; text-align: center;">$38-$35</span></h6>
+            
+        </div>
+    </div>
+   </a>
+   <a href="https://amzn.to/4a9BvY7" style="text-decoration: none;">
+    <div class="dde">
+        <div class="pic">
+            <img class="picimg" src="61ZCdzmymsL._AC_SX679_.jpg" alt="">
+         </div>
+         <div style="display: inline-block;">
+             <h6 style=" margin-top: 10px; color: white;margin-left: 10px;">
+                 LENOVO IDEAPAD 1 STUDENT<br>
+            LAPTOP, ITEL DUAL PROCESS<br>OR, 20GB RAM WINDOWS 11<br>
+             <span style="color:  rgba(252, 252, 42, 0.932); font-size: 85%; margin-top: 10px; text-align: center;">$400-$450</span></h6>
+             
+         </div>
+    </div>
+   </a>
+    <a href="https://amzn.to/44yKiC3" style="text-decoration: none;">
+        <div class="dde">
+            <div class="pic">
+                <img class="picimg" src="61X-HryyD+L._AC_SX679_.jpg" alt="">
+             </div>
+             <div style="display: inline-block;">
+                 <h6 style=" margin-top: 10px; color: white;margin-left: 10px;">
+                     KOORUI GAMING KEYBOARD<br> 60% WIRED ALTRA COMPACT<br>61 KEYS 26 RGB BACKLIGHT<br>
+                 <span style="color:  rgba(252, 252, 42, 0.932); font-size: 85%; margin-top: 10px; text-align: center;">$400-$450</span></h6>
+                 
+             </div>
+        </div>
+    </a>
+   <a href="" style="text-decoration: none;">
+    <div class="dde"></div>
+   </a>
+    <a href="" style="text-decoration: none;">
+        <div class="dde"></div>
+    </a>
+   
+</div>
+</div>
+
+<div class="d-md-none d-sm-none d-none d-lg-block">
+    <div class="row footer ">
+    
+        <div class="col-lg-3 ">
+            <h4 style="margin-top: 69px; margin-left: 107px; color: whitesmoke;">Lets talk about</h4>
+            <p style="margin-left: 110px; margin-top: 29px;">This affiliate site is <br> very interested in the <br> good and legit service  <br> of our costumers. <br> Never the less, we are <br> also here to make profit <br> and be great...</p>
+            <button class="learn">Learn more</button>
+        </div>
+        <div class="col-lg-3">
+            <div class="col-lg-3 ">
+                <h4 style="margin-top: 69px; margin-left: 107px; color: whitesmoke;">Links</h4>
+                <ul class="fli" style="margin-left: 78px; margin-top: 29px; padding: 0;">
+                <li style="padding-top: 0px; display: inline-block;"><a href="">About </a></li>
+                <li><a href="">Products </a></li>
+                <li><a href="">Contact </a></li>
+                <li><a href="">Faqs</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="col-lg-3">
+            <h4 style="margin-top: 69px;  color: whitesmoke;">Products</h4>
+            <ul class="fli" style="margin-left: -50px; margin-top: 29px;">
+            <li style="padding-top: 0px;"><a href="">Headsets <i class="fa-solid fa-greater-than" style="font-size: 80%;margin-left: 10px; font-weight: bolder;"></i></a></li>
+            <li><a href="">Laptops <i class="fa-solid fa-greater-than" style="font-size: 80%;margin-left: 20px; font-weight: bolder;"></i></a></li>
+            <li><a href="">Mouse <i class="fa-solid fa-greater-than" style="font-size: 80%;margin-left: 34px; font-weight: bolder;"></i></a></li>
+            <li><a href="">Keyboards<i class="fa-solid fa-greater-than" style="font-size: 80%;margin-left: 10px; font-weight: bolder;"></i></a></li>
+        </ul>
+        </div>
+        <div class="col-lg-3">
+        
+            <h4 style="margin-top: 69px;  color: whitesmoke;">Have a Question?</h4>
+            <ul class="fli2" style="margin-left: -20px; margin-top: 29px;">
+            <li style="padding-top: 0px;"><i style=" margin-right: 20px;" class="fa-brands fa-whatsapp"></i>08024687714</li>
+            <li><i style=" margin-right: 20px;" class="fa-solid fa-phone"></i>+2348024687714</li>
+            <li><i style=" margin-right: 20px;" class="fa-solid fa-envelope"></i>ofinaby1@gmail.com</li>
+            <li><div class="row">
+                <div class="col-lg-2">
+                    <div class="bbt d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-facebook-f" style="color: white;"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 ">
+                    <div class="bbt d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-telegram"  style="color: white;"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 ">
+                    <div class="bbt d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-instagram"  style="color: white;"></i>
+                    </div>
+                </div>
+            </div></li>
+        </ul>
+        </div>
+        
+        <div class="col-lg-12 d-flex justify-content-center">
+            <p class="copi">Copyright&copy;2023 All rights reserved |This Site was made by Ofofonono Ukpe</p>
+        </div>
+        </div>
+</div>
+
+<div class="d-md-block d-sm-block d-block d-lg-none">
+    <div class="row footer2 ">
+        <div class="col-sm-12 col-12 ">
+            <h4 style="margin-top: 80px; margin-left: 107px; color: whitesmoke;">Lets talk about</h4>
+            <p style="margin-left: 110px; margin-top: 29px;">This affiliate site is <br> very interested in the <br> good and legit service  <br> of our costumers. <br> Never the less, we are <br> also here to make profit <br> and be great...</p>
+            <button class="learn">Learn more</button>
+        </div>
+        <div class="col-sm-5 col-5">
+           
+                <h4 style="margin-top: 20px; margin-left: 50px; color: whitesmoke;">Links</h4>
+                <ul class="fli" style="margin-left: 0px; margin-top: 29px;">
+                <li style="padding-top: 0px;"><a href="">About</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Faqs</a></li>
+            </ul>
+        
+        </div>
+        <div class="col-sm-5 col-5">
+            <h4 style="margin-top: 20px;  color: whitesmoke; margin-left: 50px;">Products</h4>
+            <ul class="fli" style=" margin-top: 29px;">
+            <li style="padding-top: 0px;"><a href="">Headsets</a></li>
+            <li><a href="">Laptops</a></li>
+            <li><a href="">Mouse</a></li>
+            <li><a href="">Keyboards</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-12 col-12 ">
+        
+            <h4 style="margin-top: 10px;  color: whitesmoke; text-align: center;">Have a Question?</h4>
+            <ul class="fli2 " style="margin-left: -20px; margin-top: 29px; text-align: center;">
+            <li style="padding-top: 0px;"> 08024687714</li>
+            <li>+2348024687714</li>
+            <li>ofinaby1@gmail.com</li>
+            <li><div class="row" style="margin-left: 23%;">
+                <div class="col-lg-2">
+                    <div class="bbt d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-facebook-f" style="color: white;"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 ">
+                    <div class="bbt d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-telegram"  style="color: white;"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 ">
+                    <div class="bbt d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-instagram"  style="color: white;"></i>
+                    </div>
+                </div>
+            </div></li>
+        </ul>
+        </div>
+        
+        <div class="col-lg-12 d-flex justify-content-center">
+            <p class="copi">Copyright&copy;2023 All rights reserved |This Site was made by Ofofonono Ukpe</p> 
+        </div>
+        </div>
+</div>
+<button class="nxt d-md-none d-sm-none d-none d-lg-block" id="scroll"></button>
+<button class="pre d-md-none d-sm-none d-none d-lg-block" id="scroll2"></button>
+<button class="nxt2  d-md-block d-sm-block d-block d-lg-none" id="scroll3"></button>
+<button class="pre2  d-md-block d-sm-block d-block d-lg-none" id="scroll4"></button>
+
+<div class="products" id="pro" onmouseover="drop()" onmouseout="drop2()">
+    <ul>
+        <a href="headset.html"><li>HEADSET</li></a>
+        <li>MOUSE</li>
+        <li>KEYBOARDS</li>
+        <a href="laptop.html"> <li>LAPTOPS</li></a>
+    </ul>
+</div>
+<div class="right d-md-none d-sm-none d-none d-lg-block" id="right">
+
+    <div class="close d-flex align-items-center justify-content-center" onclick="right2()">
+        <i class="fa-solid fa-xmark" style="color: grey;"></i></div>
+<input type="text" placeholder="Ask any Queston">
+<button class="ask">Ask</button><br>
+
+
+
+<h5 style="margin-left: 0%; margin-top: 25px; color: rgb(40, 38, 38);">
+   <a href="index.html" class="hher">Home</a> 
+</h5>
+
+<h5 style="margin-left: 0%; margin-top: 25px; color: rgb(40, 38, 38);">
+    <a href="about.html" class="hher">About</a> 
+</h5>
+
+<h5 style="margin-left: 0%; margin-top: 25px; color: rgb(40, 38, 38);">
+    <a href="" class="hher">Products</a>
+</h5>
+
+<h5 style="margin-left: 0%; margin-top: 25px; color: rgb(40, 38, 38);">
+    <a href="contact.html" class="hher"> Contact</a>
+</h5>
+
+<h5 style="margin-left: 0%; margin-top: 25px; color: rgb(40, 38, 38);">
+    <a href="" class="hher">Terms and Conditions</a>
+</h5>
+
+<h5 style="margin-left: 0%; margin-top: 25px; color: rgb(40, 38, 38);">
+    <a href="" class="hher">Affiliate disclosure</a>
+</h5>
+<div class="row" style="margin-left: 3%; margin-top: 30px;">
+    <div class="col-lg-2">
+        <div  class="bbt d-flex align-items-center justify-content-center">
+            <i class="fa-brands fa-facebook-f" style="color: white;"></i>
+        </div>
+    </div>
+    <div class="col-lg-2 ">
+        <div style="margin-left: 10px;"  class="bbt d-flex align-items-center justify-content-center">
+            <i class="fa-brands fa-telegram"  style="color: white;"></i>
+        </div>
+    </div>
+    <div class="col-lg-2 ">
+        <div  style="margin-left: 20px;" class="bbt d-flex align-items-center justify-content-center">
+            <i class="fa-brands fa-instagram"  style="color: white;"></i>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="right2 d-md-block d-sm-block d-block d-lg-none" id="right2" onmouseleave="right2()">
+
+    <div class="close d-flex align-items-center justify-content-center" onclick="right2()">
+        <i class="fa-solid fa-xmark" style="color: grey;"></i></div>
+<input type="text" placeholder="Ask any Queston">
+
+
+<h5 style="margin-left: 0%; margin-top: 25px; color: rgb(40, 38, 38);">
+   <a href="about.html" style=" color: rgb(40, 38, 38); text-decoration: none;">About</a>
+</h5>
+
+<h5 style="margin-left: 11%; margin-top: 25px; color: rgb(40, 38, 38); cursor: pointer;" onclick="drop()">
+   Products
+</h5>
+
+
+<h5 style="margin-left: 0%; margin-top: 25px; color: rgb(40, 38, 38);">
+   <a href="contact.html" style=" color: rgb(40, 38, 38); text-decoration: none;"> Contact</a>
+</h5>
+
+<h5 style="margin-left: 0%; margin-top: 25px; color: rgb(40, 38, 38);">
+    <a href="" style=" color: rgb(40, 38, 38); text-decoration: none; ">Terms and <span style="margin-left: 11%;">Conditions</span></a>
+</h5>
+
+<h5 style="margin-left: 0%; margin-top: 25px; color: rgb(40, 38, 38);">
+   <a href=""  style=" color: rgb(40, 38, 38); text-decoration: none;"> Affiliate disclosure</a>
+</h5>
+<div class="row" style="margin-left: 3%; margin-top: 30px;">
+    <div class="col-lg-2">
+        <div  class="bbt d-flex align-items-center justify-content-center">
+            <i class="fa-brands fa-facebook-f" style="color: white;"></i>
+        </div>
+    </div>
+    <div class="col-lg-2 ">
+        <div style="margin-left: 10px;"  class="bbt d-flex align-items-center justify-content-center">
+            <i class="fa-brands fa-telegram"  style="color: white;"></i>
+        </div>
+    </div>
+    <div class="col-lg-2 ">
+        <div  style="margin-left: 20px;" class="bbt d-flex align-items-center justify-content-center">
+            <i class="fa-brands fa-instagram"  style="color: white;"></i>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="sn d-md-none d-sm-none d-none d-lg-block" onclick="drop()" >Shop now</div>
+<div class="bounce" id="bounce"></div>
+<div class="bounce2" ></div>
+
+<button class="sn d-md-block d-sm-block d-block d-lg-none" style="top: 56%;width: 90%;left: 5%;" onclick="drop()">Shop now</button>
+<script src="index.js"></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+   
+</body>
+</html>
